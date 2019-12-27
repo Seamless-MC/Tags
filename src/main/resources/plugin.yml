@@ -1,0 +1,9 @@
+name: AnvilTags
+author: DroppingAnvil
+main: io.github.droppinganvil.TagMain
+version: 1.0
+commands:
+  tag:
+    description: Select your tag!
+  tags:
+    description: Select your tag!
