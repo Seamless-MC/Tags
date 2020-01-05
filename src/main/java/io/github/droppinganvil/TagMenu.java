@@ -58,7 +58,7 @@ public class TagMenu implements Menu {
                         tagMeta.addItemFlags(ItemFlag.HIDE_ENCHANTS);
                     }
                     tagItem.setItemMeta(tagMeta);
-                    in.addItem(tagItem);
+                    in.setItem(iIndex, tagItem);
                     imap.put(iIndex, t);
                     iIndex++;
                 }
